@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Niduuuuu 🌻</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#fff9f2;
+overflow-x:hidden;
+}
+
+section{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:40px;
+text-align:center;
+}
+
+.hero{
+background:linear-gradient(135deg,#8A1538,#F8C8DC,#B8E3FF);
+color:white;
+}
+
+.hero h1{
+font-size:4rem;
+}
+
+.hero p{
+font-size:1.3rem;
+margin-top:20px;
+}
+
+.btn{
+margin-top:30px;
+padding:15px 30px;
+border:none;
+background:#FFD54F;
+border-radius:30px;
+font-size:1rem;
+cursor:pointer;
+}
+
+.gallery{
+background:#F8C8DC;
+}
+
+.gallery h2{
+margin-bottom:30px;
+}
+
+.photos{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.photos img{
+width:250px;
+height:350px;
+object-fit:cover;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+
+.reasons{
+background:#B8E3FF;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+width:100%;
+max-width:1000px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+}
+
+.letter{
+background:white;
+padding:50px;
+}
+
+.letter-box{
+max-width:800px;
+line-height:2;
+font-size:1.1rem;
+}
+
+.memory{
+background:#F8C8DC;
+}
+
+.jar{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+max-width:900px;
+width:100%;
+}
+
+.note{
+background:white;
+padding:20px;
+border-radius:20px;
+cursor:pointer;
+}
+
+.cake{
+background:#B8E3FF;
+}
+
+.cake-emoji{
+font-size:120px;
+}
+
+.final{
+background:#8A1538;
+color:white;
+}
+
+.popup{
+display:none;
+position:fixed;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:white;
+padding:30px;
+border-radius:20px;
+z-index:1000;
+width:90%;
+max-width:500px;
+text-align:center;
+}
+
+.sunflower{
+position:fixed;
+font-size:30px;
+animation:float 12s linear infinite;
+opacity:.7;
+}
+
+@keyframes float{
+0%{
+transform:translateY(100vh);
+}
+100%{
+transform:translateY(-100px);
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="sunflower" style="left:10%">🌻</div>
+<div class="sunflower" style="left:30%;animation-delay:2s">🌻</div>
+<div class="sunflower" style="left:60%;animation-delay:4s">🌻</div>
+<div class="sunflower" style="left:85%;animation-delay:6s">🌻</div>
+
+<section class="hero">
+<h1>Happy Birthday Niduuuuu 🌻</h1>
+
+<p>
+To the girl who made college feel like home.
+</p>
+
+<a href="#gallery">
+<button class="btn">Open Your Surprise 💌</button>
+</a>
+</section>
+
+<section class="gallery" id="gallery">
+
+<h2>Our Memories 📸</h2>
+
+<div class="photos">
+
+<img src="images/photo1.jpg">
+<img src="images/photo2.jpg">
+<img src="images/photo3.jpg">
+<img src="images/photo4.jpg">
+
+</div>
+
+</section>
+
+<section class="reasons">
+
+<h2>Why You're My Favorite Person 💙</h2>
+
+<div class="cards">
+
+<div class="card">🌻 You understand me without explanations.</div>
+
+<div class="card">🎵 We somehow love the exact same music.</div>
+
+<div class="card">💃 We can never resist dancing.</div>
+
+<div class="card">🤭 We always end up hating the same people.</div>
+
+<div class="card">✨ You make every ordinary day special.</div>
+
+<div class="card">🏠 You became my comfort place.</div>
+
+</div>
+
+</section>
+
+<section class="letter">
+
+<h2>A Letter For Niduuuuu 💌</h2>
+
+<div class="letter-box">
+
+<p>
+Happy Birthday, my favorite person. 🌻
+<br><br>
+
+I genuinely don't know how I got lucky enough to find someone like you.
+
+College would have been completely different without you. Honestly, I don't even want to imagine it.
+
+The boring classes, the endless assignments, the random drama, and all those exhausting days somehow became bearable because I had you beside me.
+
+You understand me without explanations.
+
+You laugh at my jokes before I even finish them.
+
+You somehow have the exact same music taste as me.
+
+We love dancing, we share the same humor, and somehow we even dislike the same people.
+
+It's scary how similar we are sometimes.
+
+Thank you for being my safe place.
+
+Thank you for every laugh.
+
+Thank you for every rant session.
+
+Thank you for every memory.
+
+If college gave me only one good thing, I would choose you every single time.
+
+I love you endlessly, Niduuuuu.
+
+Happy 20th Birthday, sunflower girl. 🌻💖
+</p>
+
+</div>
+
+</section>
+
+<section class="memory">
+
+<h2>Memory Jar 🌻</h2>
+
+<div class="jar">
+
+<div class="note" onclick="alert('Remember when we couldn’t stop laughing? 😂')">
+🌻 Open Memory
+</div>
+
+<div class="note" onclick="alert('Thank you for every rant session ❤️')">
+🌻 Open Memory
+</div>
+
+<div class="note" onclick="alert('You are my favorite college memory 🌻')">
+🌻 Open Memory
+</div>
+
+<div class="note" onclick="alert('You are stuck with me forever 😌')">
+🌻 Open Memory
+</div>
+
+</div>
+
+</section>
+
+<section class="cake">
+
+<div class="cake-emoji">🎂</div>
+
+<h2>Make A Wish 🌻</h2>
+
+<button class="btn" onclick="blowCandles()">
+Blow Out The Candles
+</button>
+
+<p id="wish"></p>
+
+</section>
+
+<section class="final">
+
+<h1>One Last Thing 💖</h1>
+
+<p>
+If college gave me only one good thing,
+I'd choose you every single time.
+</p>
+
+<button class="btn" onclick="showPopup()">
+One Last Surprise 🌻
+</button>
+
+</section>
+
+<div class="popup" id="popup">
+
+<h2>Congratulations 💖</h2>
+
+<br>
+
+<p>
+You have unlocked:
+<br><br>
+
+✨ Lifetime Best Friend Access
+<br>
+✨ Unlimited Gossip Sessions
+<br>
+✨ Free Dance Partner Forever
+<br>
+✨ Endless Love & Support
+<br><br>
+
+Cancellation is not available 🌻
+</p>
+
+<br>
+
+<button class="btn" onclick="closePopup()">
+Love You Niduuuuu 💙
+</button>
+
+</div>
+
+<script>
+
+function blowCandles(){
+document.getElementById("wish").innerHTML=
+"✨ May every dream in your heart come true, Niduuuuu 🌻";
+}
+
+function showPopup(){
+document.getElementById("popup").style.display="block";
+}
+
+function closePopup(){
+document.getElementById("popup").style.display="none";
+}
+
+</script>
+
+</body>
+</html>
